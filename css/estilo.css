@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Medium.ttf);
+  }
+
+  
+@font-face {
+    font-family: 'roboto-light';
+    src: url(../fonts/Roboto-Light.ttf);
+  }
+
+h1{
+    font-family: roboto;
+}
+
+label,p{
+    font-family: roboto-light;
+}
+
+body,html{
+    height: 100%;
+    color: black;
+}
+
+p,h1,h5{
+    color:black;
+}
+
+.logo{
+    max-width: 200px;
+    height: auto;
+}
+
+.img-background{
+    background-image: url('../Imagenes/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-blend-mode: saturation;
+}
+
+.carrousel-bg-color{
+    background-color: rgb(104 104 104 / 50%)
+}
+
+.container-border{
+    background-color:  rgb(75 117 145 / 52%);
+}
+
+.accordion-color{
+    background-color: #ccc;
+    border-color: black;
+}
+
+.footer-rrss{
+    width: 50px;
+    height: auto;
+}
+
+.color-button{
+    background-color: rgb(48, 46, 46);
+    border: 2px solid black;
+}
+
+.table thead, .btn-custom, .btn-primary:hover {
+    background-color: #14365c;
+    color: white;
+    border: none;
+}
+
+.btn-custom {
+    border: none;
+}
+
+.table tr{
+    border-color: #97acc1;
+}
+
+.img-cards{
+    width: 18rem;
+    background-color: #14365c;
+}
+
+.carousel-item .carousel-caption h5,.carousel-item .carousel-caption p, .card p{
+    color:white;
+}
+
+.color-bg{
+    background-color: #5c5e61;
+}
+
+.bg-color{
+    background-color: #181818;
+}
+
+.bg-color-table{
+    background-color: #e7eff796;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #14365c;
+}
+
+.accordion-button:focus {
+    border: 0px !important;
+    box-shadow: none !important;
+}
+
+.text-nowrap p {
+    margin: 0px;
+}
+
+.rrss a i{
+    color: white;
+    font-size: 35px;
+}
+
+.rrss a i:hover {
+    color: #14365c;
+}
+
+.rrss a{
+    padding: 0 1rem;
+}
+@media (max-width: 420px) {
+    .logo {
+        max-width: 100px;
+    }
+
+    .mobile-bg{
+        background-color: #14365c;
+        color: white;
+    }
+}
